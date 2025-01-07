@@ -11,6 +11,18 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    behaviors {
+        mmv: mmv {
+            compatible = "zmk,behavior-input-two-axis";
+            label = "MMV";
+            #binding-cells = <1>;
+            x-input-code = <1>;
+            y-input-code = <1>;
+            time-to-max-speed-ms = <500>;
+            delay-ms = <10>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
