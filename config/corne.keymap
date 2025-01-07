@@ -33,10 +33,10 @@
         colemak {
             display-name = "Base";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp F     &kp P         &kp B    &kp J  &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&kp LEFT_SHIFT  &kp A  &kp R  &kp S     &kp T         &kp G    &kp H  &kp N      &kp E      &kp I    &kp O          &kp SQT
-&kp LCTRL       &kp Z  &kp X  &kp C     &kp V         &kp D    &kp K  &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                              &kp LGUI  &kp LEFT_ALT  &mo 3    &mo 2  &kp ENTER  &kp RALT
+&kp TAB         &kp Q  &kp W  &kp F     &kp P      &kp B    &kp J  &kp L      &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&kp LEFT_SHIFT  &kp A  &kp R  &kp S     &kp T      &kp G    &kp H  &kp N      &kp E      &kp I    &kp O          &kp SQT
+&kp LCTRL       &kp Z  &kp X  &kp C     &kp V      &kp D    &kp K  &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
+                              &kp LGUI  &kp SPACE  &mo 3    &mo 2  &kp ENTER  &kp RALT
             >;
         };
 
@@ -52,7 +52,7 @@
 &kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0  &kp DELETE
 &kp CAPSLOCK  &trans        &trans        &trans        &trans        &kp PRINTSCREEN    &trans        &trans          &kp UP          &trans           &trans        &trans
 &trans        &trans        &trans        &trans        &trans        &trans             &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &trans
-                                          &kp LGUI      &kp LEFT_ALT  &mo 3              &trans        &trans          &kp RALT
+                                          &kp LGUI      &trans        &mo 3              &trans        &trans          &kp RALT
             >;
         };
 
