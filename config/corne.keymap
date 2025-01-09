@@ -1,4 +1,4 @@
-/*
+j/*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -14,7 +14,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mmv {
-    time-to-max-speed-ms = <300>;
+    time-to-max-speed-ms = <500>;
     acceleration-exponent = <2>;
 };
 
